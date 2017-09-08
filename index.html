@@ -4,13 +4,13 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>LS Foundation</title>
+	<title>Strawbridge Foundation</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
+	<meta name="description" content="Bridging the Gap" />
+	<meta name="keywords" content="Lawrence, Strawbridge, Charity, City" />
+	<meta name="author" content="Shlok Natarajan and Colton Henning" />
 	
-  <!-- Facebook and Twitter integration -->
+  	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
@@ -33,14 +33,28 @@
 	<!-- Simple Line Icons -->
 	<link rel="stylesheet" href="css/simple-line-icons.css">
 	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-
+	<link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
+	<link href="plugins/Lightbox/dist/css/lightbox.css" rel="stylesheet">
 	
-	<link rel="stylesheet" href="css/style.css">
+	<!-- Bootstrap CSS -->
+    <link href="bootstrap-assets/css/bootstrap.css" rel="stylesheet">
 
+	<!-- Loading jQuery-->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	
+	<!-- Style -->
+	<link rel="stylesheet" href="css/style.css">
+	
+	<!-- Plugins -->
+	<link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <link href="plugins/Lightbox/dist/css/lightbox.css" rel="stylesheet">
+    <link href="plugins/Icons/et-line-font/style.css" rel="stylesheet">
+	<link href="plugins/animate.css/animate.css" rel="stylesheet">
+	
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -50,8 +64,13 @@
 
 	</head>
 	<body>
+	<!-- Preloader
+	============================================= -->
+    <div class="preloader"><i class="fa fa-circle-o-notch fa-spin fa-2x"></i></div>
+	
+	<!-- Header
+	============================================= -->
 	<header role="banner" id="fh5co-header">
-		<section class ="main-header">
 			<div class="container">
 				<!-- <div class="row"> -->
 			    <nav class="navbar navbar-default">
@@ -77,33 +96,27 @@
                             <li><a href="#"><i class="fa fa-yelp"></i></a></li>
                         </ul>
 				  </div>
-					
 		        </div>
 			    </nav>
 			</div>
-			<!-- Carousel stuff-->
-			<div id="owl-hero" class="owl-carousel owl-theme">
-				<div class="item" style="background-image: url(img/tintedhomebigshot.jpg)">
-					<div class="caption">
-						<h1><span>St. Louis's Premier Training Facility</span></h1>
-						<a class="btn btn-transparent" href="#AboutUs">About Us</a>
-						   
-					</div>
-				</div>
-				<div class="item" style="background-image: url(img/blaketraintinted.jpg)">
-					<div class="caption">
-						<h1>Personal <span>Training</span></h1>
-						<a class="btn btn-transparent" href="#Trainers">Meet the Trainers</a>
-					</div>
-				</div>
-				<div class="item" style="background-image: url(img/WHFgrouptinted.jpg)">
-					<div class="caption">
-						<h1>Group <span>Lesssons</span></h1>
-						<a class="btn btn-transparent" href="AboutUs.html">Click To Learn More</a>
-					</div>
-				</div>
+
+		<section class="welcome">
+			<div class ="welcometext">
+				<h1 class="text-center to-animate">Lawrence Strawbridge Foundation</h1>
+				<h3 class="text-center to-animate">Supporting Inner City Students</h3>
 			</div>
-		</section> 
+		</section>
+
+		<div class="about">
+			<div class="col-md-4 col-md-offset-1 text-center abouttext">
+				<p>Jumpman Jumpman Jumpman Jumpman</p>
+			</div>
+			<div class="col-md-4 text-center col-md-offset-1 aboutpic">
+				<p>Jumpman Jumpman Jumpman Jumpman</p>
+			</div>
+		</div>
+
+
 	</header>
 
 	<!-- jQuery -->

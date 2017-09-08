@@ -5,6 +5,11 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/*@font-face {
+  font-family: 'typographypro';
+  src: url()
+}*/
 /* =======================================================
 *
 * 	Template Style 
@@ -21,17 +26,20 @@ body {
   background: #fff;
   height: 100%;
   position: relative;
+  width: 100vw;
+  overflow-x: hidden;
+  
 }
 
 a {
-  color: #6173f4 !important; 
+  color: #8e3ef1 !important; 
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #6173f4;
+  color: #8e3ef1;
   outline: none;
 }
 
@@ -78,7 +86,10 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
   #fh5co-header .navbar-brand {
-    color: #6173f4 !important;
+    color: #8e3ef1 !important;
+  }
+  @media screen and (max-width: 768px) {
+    padding-left: 15px;
   }
   #fh5co-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
@@ -87,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
   }
   #fh5co-header #navbar li a:hover {
-    color: #6173f4 !important;
+    color: #8e3ef1 !important;
   }
   #fh5co-header #navbar li a span:before {
     background: transparent !important;
@@ -95,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header #navbar li.active a {
     background: transparent;
     background: none;
-    color: #6173f4 !important;
+    color: #8e3ef1 !important;
   }
   #fh5co-header #navbar li.active a span:before {
     visibility: visible;
@@ -124,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #6173f4;
+  background-color: #8e3ef1;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -184,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 #fh5co-header.navbar-fixed-top .navbar-brand {
-  color: #6173f4;
+  color: #8e3ef1;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
   color: rgba(0, 0, 0, 0.5);
@@ -193,12 +204,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 #fh5co-header.navbar-fixed-top #navbar li a:hover {
-  color: #6173f4;
+  color: #8e3ef1;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
-  color: #6173f4;
+  color: #8e3ef1;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
   visibility: visible;
@@ -239,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #adadad;
 }
 #fh5co-header .navbar-default .brand-slogan em {
-  color: #6173f4;
+  color: #8e3ef1;
   font-style: normal;
 }
 #fh5co-header a {
@@ -257,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
-  background: #6173f4;
+  background: #8e3ef1;
 }
 .fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
   outline: none;
@@ -271,18 +282,18 @@ h1, h2, h3, h4, h5, h6 {
   *display: inline;
   width: 25px;
   height: 3px;
-  color: #6173f4;
+  color: #8e3ef1;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #6173f4;
+  background: #8e3ef1;
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 3px;
-  background: #6173f4;
+  background: #8e3ef1;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
@@ -347,89 +358,78 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 /*End of mobile navbar stuff*/
+.navbar {
+  min-height: 70px !important;
+}
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    padding-top: 25px;
+  }
+}
 
+@media screen and (max-width: 330px) {
+  .navbar-brand {
+    padding-top: 15px;
+  }
+}
 /* ==========================================================================
-Sliders Style
+Welcome Page Style
 ========================================================================== */
 
-#owl-hero {
-  overflow: hidden;
-}
-#owl-hero .item {
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-#owl-hero .item .caption {
-  position: absolute;
-  top: 50%;
-  margin-top: -104px;
-  left: 0;
-  right: 0;
-  text-align: center;
-  z-index: 15;
-}
-#owl-hero .item .caption h1 {
-  margin-top: 40px;
-  margin-bottom: 50px;
-  margin-top: 3%;
-  text-transform: uppercase;
-  color: #fff; 
-  letter-spacing: 2.5px;
-}
-#owl-hero .item .caption h1 span {
-  font-weight: 500;
-}
-#owl-hero .item .caption h6 {
-  color: #fff;
-  margin: 0;
-}
-#owl-hero .owl-pagination {
-  position: absolute;
-  display: block;
-  text-align: center;
+.welcome {
+  background-image: url("../images/LSCollageTintedLight.png");
+  height: 88vh;
   width: 100%;
-  bottom: 5%;
-}
-#owl-hero .owl-pagination .owl-page.active span {
-  background: #fff;
-}
-#owl-hero .owl-pagination .owl-page span {
-  border: 2px solid #fff;
-  border-radius: 50%;
-  background: transparent;
-  opacity: 1;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-/*-- Sliders --*/
-#owl-hero h1 {
-  font-size: 42px;
-}
-#owl-hero h6 {
-  font-size: 16px;
-}
-#owl-hero .btn {
-  margin-top: 15px;
-}
-#owl-hero .owl-buttons {
-  display: none;
-}
-
-.owl-theme .owl-controls {
-  margin: 0px;
-}
-
-.owl-theme .owl-controls .owl-buttons {
-  display: hidden;
-  margin: 0px;
+  overflow: hidden;
   padding: 0px;
 }
+.welcometext {
+  text-align: center;
+  padding-top: 13%;
+}
+.welcometext h1 {
+  color: #fff;
+  font-size: 70px;
+  font-size: 4.5em;
+  font-weight: 700;
+}
 
-/*# sourceMappingURL=style.css.map */
+.welcometext h3 {
+  color: #fff;
+  font-size: 30px;
+  padding-top: 40px;
+  padding-top: 2%;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+/* ==========================================================================
+Home Page Content Style
+========================================================================== */
+
+.about {
+  height: 50vh;
+  background-color: #fff;
+  width: 100%;
+}
+
+.abouttext {
+  font-size: 15px;
+  color: black;
+  background-color: rgba(62, 191, 208, 0.5);
+  height: auto;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+}
+
+.aboutpic {
+  background-color: rgba(208, 116, 62, 0.5);
+  height: auto;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+  
+}
+
+
+
+

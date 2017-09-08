@@ -1,17 +1,13 @@
 
 TITLE: 
-Crew - Responsive Free HTML5 template
+Lawrence Strawbridge Foundation 
 
 AUTHOR:
-DESIGNED & DEVELOPED by FREEHTML5.co
+Shlok Natarajan and Colton Henning
 
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
 
 
 CREDITS:
-
 Bootstrap
 http://getbootstrap.com/
 
@@ -45,5 +41,6 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
 Owl Carousel
 http://www.owlcarousel.owlgraphic.com/
 
-Styleswitcher for Demo
-https://github.com/camsjams/jquery-style-switcher
+Templates
+https://freehtml5.co/
+
