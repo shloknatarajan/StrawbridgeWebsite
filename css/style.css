@@ -438,6 +438,12 @@ Welcome Page Style
   font-size: 5.0em;
   font-weight: 300;
 }
+@media screen and (max-width: 768px) {
+  .welcometext h1 {
+    font-size: 60px;
+    font-size: 4.0em;
+  }
+}
 
 .welcometext h3 {
   color: #fff;
@@ -447,7 +453,12 @@ Welcome Page Style
   font-size: 2em;
   font-weight: 300;
 }
-
+@media screen and (max-width: 768px) {
+  .welcometext h3 {
+    font-size: 60px;
+    font-size: 1.7em;
+  }
+}
 /* ==========================================================================
 Home Page Content Style
 ========================================================================== */
