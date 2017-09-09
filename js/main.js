@@ -50,7 +50,7 @@
 
 
 	// Page Nav
-	var clickMenu = function() {
+	/*var clickMenu = function() {
 
 		$('a:not([class="external"])').click(function(event){
 			var section = $(this).data('nav-section'),
@@ -69,7 +69,7 @@
 		    return false;
 		});
 
-	};
+	};*/
 
 	// Reflect scrolling in navigation
 	var navActive = function(section) {
@@ -403,7 +403,6 @@
 		clickMenu();
 		windowScroll();
 		navigationSection();
-
 		aboutWayPoint();
 		teamWayPoint();
 		servicesWayPoint();
