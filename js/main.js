@@ -400,7 +400,6 @@
 	$(function(){
 
 		burgerMenu();
-		owlCrouselFeatureSlide();
 		clickMenu();
 		windowScroll();
 		navigationSection();
