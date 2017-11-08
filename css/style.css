@@ -493,4 +493,83 @@ About Content
 Donate Content
 ========================================================================== */
 
+.donate {
+  height: auto;
+  /*background-color: #9B30BF !important;*/
+  background-image: url("../images/LSCollageTintedLight.png");  
+  width: 100%;
+}
 
+.donatetext h1 {
+  font-size: 3em;
+  color: white !important;
+  height: auto;
+  margin-top: 18vh;
+}
+
+.donatetext h3 {
+  font-size: 2em;
+  font-weight: 350;
+  color: white;
+  margin-top: 12.5vh;
+
+}
+
+@media screen and (max-width: 1000px) {
+  .donatetext h3 {
+    margin-top: 9vh;
+    margin-bottom: 0vh;
+  }
+
+  #paypal {
+    margin-top: 4vh !important;
+  }
+}
+
+.donatebutton {
+  padding-top: 0px;
+}
+
+#paypal {
+  height: 20vh;
+  margin-top: 12vh;
+  margin-bottom: 12.5vh;
+  
+}
+
+/* ==========================================================================
+Footer Map Style
+========================================================================== */
+footer {
+  background-image: url("../images/LSCollageTintedLight.png");
+  padding: 60px 0;
+  text-align: center;
+}
+footer h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+footer .social a {
+  color: #fff !important;
+  margin-left: 20px;
+  margin-right: 20px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+footer .social a:hover,
+footer .social a:focus,
+footer .social a:active {
+  color: #a3a3a3;
+}
+footer h6 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+footer p {
+  color:#fff;
+}
